@@ -12,8 +12,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    width: fit-content;
-    block-size: fit-content;
+    width: auto;
+    block-size: auto;
   
 }
 
