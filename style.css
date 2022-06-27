@@ -96,4 +96,26 @@ body{
     font-style: oblique;
     text-decoration: underline;
     text-decoration-color: var(--tertiary-color);
+}
+
+.inline{
+    display: inline;
+    font-weight: bold;
     
+}
+
+.icon{
+    margin-left: 0;
+    max-width: 30px;
+    max-height: 30px;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+.footer{
+    margin: 0;
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 2rem;
+    text-align: center;
+}
