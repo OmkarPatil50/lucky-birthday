@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Secular+One&family=Zilla+Slab&display=swap');
+
+
+:root{
+    --primary-color: black;
+    --secondary-color:#22d3ee;
+    --tertiary-color: red;
+}
+
+body{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 80%;
+  
+}
+
+.span-text{
+    color: var(--tertiary-color)
+}
+
+.container{
+    
+    border:solid var(--secondary-color);
+
+}
+
+.header{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.para-head{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: large;
+}
+
+
+.label-text{
+    font-size: large;
+    font-weight: bold;
+ padding-left: 2rem;
+}
+
+.date-of-birth-box{
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border:solid var(--secondary-color);
+  font-family: 'Montserrat', sans-serif; ;
+  font-size: medium;
+  font-weight: bold;
+    cursor: pointer; 
+    border-radius: 1rem;
+}
+
+.lucky-number-box{
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border:solid var(--secondary-color);
+  font-family: 'Montserrat', sans-serif; ;
+  font-size: medium;
+  font-weight: bolder;
+    cursor: pointer; 
+    border-radius: 1rem;
+}
+
+.button-click{
+    display: block;
+    margin: auto;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    border: var(--tertiary-color) solid;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+  
+
+}
+
+
+.message-final{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-color: var(--tertiary-color);
+    
