@@ -13,7 +13,7 @@ body{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     width: auto;
-    block-size: auto;
+    block-size: fit-content;
   
 }
 
@@ -43,9 +43,12 @@ body{
 
 
 .label-text{
+   display: block;
+   text-align: center;
     font-size: large;
     font-weight: bold;
- padding-left: 2rem;
+padding-top: 0.5rem;
+ 
 }
 
 .date-of-birth-box{
