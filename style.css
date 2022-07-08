@@ -109,11 +109,12 @@ padding-top: 0.5rem;
 }
 
 .icon{
-    margin-left: 0;
+    margin-left: 0rem;
     max-width: 30px;
     max-height: 30px;
     padding-top: 2rem;
     padding-right: 4rem;
+    padding-left: 2rem;
 }
 
 .footer{
